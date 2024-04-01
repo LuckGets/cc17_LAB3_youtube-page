@@ -102,10 +102,10 @@ header {
 
 /*----------SEARCHBAR---------------*/
 
-.search-bar {
+.search-bar-navbar {
   display: flex;
   min-width: 0;
-  margin-right: 0;
+  flex: 1;
 }
 
 .search-bar-navbar input {
@@ -420,7 +420,7 @@ main {
 
 
 @media (max-width: 650px) {
-  .search-bar input {
+  .search-bar-navbar input {
     display: none;
   };
 };
